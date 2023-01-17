@@ -1,0 +1,14 @@
+{
+    "name": "rhdev/openai",
+    "autoload": {
+        "psr-4": {
+            "Rhdev\\Openai\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Roy",
+            "email": "royhermens@hotmail.com"
+        }
+    ]
+}

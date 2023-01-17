@@ -1,0 +1,21 @@
+{
+  "name": "openai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build --webpack-src-dir=blocks",
+    "start": "wp-scripts start --webpack-src-dir=blocks"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/block-editor": "^11.1.0",
+    "@wordpress/blocks": "^12.1.0",
+    "@wordpress/components": "^23.1.0",
+    "@wordpress/core-data": "^6.1.0",
+    "@wordpress/i18n": "^4.24.0",
+    "@wordpress/scripts": "^25.1.0",
+    "openai": "^3.1.0"
+  }
+}

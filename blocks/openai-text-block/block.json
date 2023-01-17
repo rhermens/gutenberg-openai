@@ -1,0 +1,31 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"title": "OpenAI Text",
+	"name": "openai/openai-text",
+	"category": "text",
+	"icon": "universal-access-alt",
+	"textdomain": "openai",
+	"example": {},
+    "attributes": {
+        "content": {
+            "type": "string"
+        },
+        "prompt": {
+            "type": "string"
+        },
+        "model": {
+            "type": "string",
+            "default": null
+        },
+        "risk": {
+            "type": "number",
+            "default": 1
+        },
+        "max_tokens": {
+            "type": "number",
+            "default": 100
+        }
+    },
+	"editorScript": "file:./openai-text.js"
+}
